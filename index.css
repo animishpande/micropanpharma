@@ -135,79 +135,152 @@ a {
   font-style: normal;
 }
 .business-btn {
-    background-color: transparent;
-    color: #0a3981;
-    border: 2px solid #0a3981;
-    border-radius: 50px;
-    padding: 5px 15px;
-    font-size: 1em;
-    transition: background-color 0.3s, color 0.3s;
+  background-color: transparent;
+  color: #0a3981;
+  border: 2px solid #0a3981;
+  border-radius: 50px;
+  padding: 5px 15px;
+  font-size: 1em;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .business-btn:hover {
-    background-color: #0a3981;
-    color: white;
+  background-color: #0a3981;
+  color: white;
 }
+
+.certifications-main {
+  margin-top: 30px;
+  height: 600px;
+  padding-top: 10px;
+  padding: 20px;
+  text-align: center;
+  /* margin-bottom: 300px; */
+}
+
+.certifications-header {
+  color: #0a3981;
+  font-family: "Hind", sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 0.1em;
+}
+
+.certifications-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.certifications-cell {
+  flex: 1 1 calc(33.333% - 20px);
+  margin: 10px;
+  height: 100%;
+  /* background-color: aqua; */
+}
+
+.certifications-img {
+  height: 35%;
+  width: 35%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.certifications-head-NABL {
+  /* font-family: "Inter", sans-serif; */
+  color: #0a3981;
+  /* font-family: "Bitter", serif; */
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 35px;
+}
+
+.certifications-head-FDA {
+  /* font-family: "Inter", sans-serif; */
+  color: #0a3981;
+  /* font-family: "Bitter", serif; */
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 90px;
+}
+
+.certifications-head-MPCB {
+  /* font-family: "Inter", sans-serif; */
+  color: #0a3981;
+  /* font-family: "Bitter", serif; */
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  margin-top: 75px;
+}
+
 .footer-main {
-    background-color: #ECEBDE;
+  background-color: #ecebde;
+}
+
+.footer-header {
+  color: #0a3981;
+  font-family: "Hind", sans-serif;
+  font-size: 2.2rem;
+  letter-spacing: 0.1em;
+  text-align: center;
+  padding-top: 20px;
 }
 .footer {
-    color: black;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer-company-name {
-    font-size: 1.2em;
-    font-weight: 600;
-    color: #0a3981;
-    letter-spacing: 0.05em;
-
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #0a3981;
+  letter-spacing: 0.05em;
 }
 
 .footer a {
-    color: white;
-    text-decoration: none;
-    margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
 }
 
 .footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer-left {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 1;
 }
 
 .footer-right {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: 1;
 }
 .footer-bottom-val {
-    color: #0a3981;
-    font-size: 1em;
-    font-weight: 600;
-    letter-spacing: 0.05em;
+  color: #0a3981;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
 }
 .footer-hr {
-    width: 100%;
-    border: 1px solid #0a3981;
-    margin: 10px 0;
+  width: 100%;
+  border: 1px solid #0a3981;
+  margin: 10px 0;
 }
 
 .footer-bottom {
-    padding: 10px;
-    text-align: center;
+  padding: 10px;
+  text-align: center;
 }
-
